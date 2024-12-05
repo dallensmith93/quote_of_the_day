@@ -1,0 +1,6 @@
+{% if quote %}
+    <p>{{ quote.text }}</p>
+    <p>- {{ quote.author }}</p>
+{% else %}
+    <p>No quotes available. Please add some quotes!</p>
+{% endif %}
